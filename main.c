@@ -1,24 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line.h                                    :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rcavadas <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/01/20 20:03:04 by rcavadas          #+#    #+#             */
-/*   Updated: 2016/02/18 18:27:11 by rcavadas         ###   ########.fr       */
+/*   Created: 2016/02/18 18:01:45 by rcavadas          #+#    #+#             */
+/*   Updated: 2016/02/18 18:27:10 by rcavadas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef GET_NEXT_LINE_H
-# define GET_NEXT_LINE_H
-# define BUFF_SIZE 32
-# include <stdlib.h>
-# include <sys/types.h>
-# include <sys/uio.h>
-# include <unistd.h>
-# include "libft/includes/libft.h"
+#include "get_next_line.h"
 
-int						get_next_line(int const fd, char **line);
-
-#endif
+int main()
+{
+	
+}

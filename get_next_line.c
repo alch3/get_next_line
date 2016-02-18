@@ -6,7 +6,7 @@
 /*   By: rcavadas <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/01/20 19:07:19 by rcavadas          #+#    #+#             */
-/*   Updated: 2016/01/20 20:45:13 by rcavadas         ###   ########.fr       */
+/*   Updated: 2016/02/18 18:27:12 by rcavadas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,14 @@
 
 int	get_next_line(int const fd, char **line)
 {
-	char			*buf;
-	int				value;
-	static t_list	*data;
+	char	*buf;
+	int		ret;
 
-	if (!line)
-		return (-1);
-
-	return (value);
+	while (ret == read(fd, buf, BUFF_SIZE))
+	{
+		buf[ret] = '\0';
+		ft_putnbr(ret);
+		ft_putstr(buf);
+	}
+	return (0);
 }
